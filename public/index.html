@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Phong's Simple Chat</h1><br>
+        <h4>node.js + socket.io + express</h4><br><br>
+        <input type="text" id="pseudoInput">
+        <button id="pseudoSet">Set Name</button>
+      </header>
+      <div id="chatEntries"></div>
+      <div id="chatControls">
+        <input type="text" id="messageInput">
+        <button id="submit">Send</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+h1, h4 {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    display: inline;
+}
+
+body {
+    width: 98%;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+#chatControls{
+    text-align: center;
+}
+
+.message {
+    margin: auto;
+    width: 50%;
+    padding: 0 0.5% 0 0.5%;
+    text-align: left;
+    background-color: #eeeeee;
+    word-wrap: normal;
+}
+
+.message.self {
+    text-align: right;
+    background-color: #bbbbbb;
+    
+}
+
+.message.joined{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}

@@ -1,0 +1,4 @@
+info: socket.io started
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized BwrOZF0aR4pUPA-SmdnR
